@@ -1,0 +1,54 @@
+body {
+  background-color: #FDFDFD;
+  color: #212121;
+  font-family: 'mplus-1p-light', sans-serif;
+  margin-bottom: 10px;
+}
+h2 {
+  font-family: 'mplus-1p-regular', sans-serif;
+  border-left: #757575 5px solid;
+  color: #101010;
+  padding-left: 10px;
+}
+a, a:visited, a:hover {
+  border-bottom: #EEEEEE 2px solid;
+  color: inherit;
+  text-decoration: none;
+  transition: opacity 0.25s ease;
+}
+a:hover {
+  opacity: 0.5;
+}
+p.lead, li {
+  margin-bottom: 0.5em;
+}
+.logo {
+  opacity: 0;
+  max-height: 150px;
+}
+.qa {
+  margin-bottom: 20px;
+}
+.qa > div {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+.question:before {
+  color: #01579B;
+  content: "Q.\0020";
+}
+.question {
+  border-left: #01579B 5px solid;
+}
+.answer:before {
+  color: #B71C1C;
+  content: "A.\0020";
+}
+.answer {
+  border-left: #B71C1C 5px solid;
+}
+.text-small {
+  font-size: 80%;
+}

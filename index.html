@@ -1,0 +1,309 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>NicoCast - ChromeCastでniconico</title>
+  
+  <meta name="description" content="NicoCastは，ChromeCastでニコニコ動画>を視聴するための非公式Chrome拡張機能です．"/>
+  <meta property="og:title" content="NicoCast - ChromeCastでniconico"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:description" content="NicoCastは，ChromeCastでニコニコ動画を視聴するための非公式Chrome拡張機能です．"/>
+  <meta property="og:url" content="http://app.mikumiku.moe/nicocast/"/>
+  <meta property="og:image" content="http://app.mikumiku.moe/nicocast/imgs/screenshot.png"/>
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
+  
+  <link href="./styles/style.css?_=20150320" rel="stylesheet"/>
+  <link href="./styles/fonts.css?_=20150320"/>
+  <script src="./scripts/fadein.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1>
+          <img class="logo" src="./imgs/logo.svg"/>
+        </h1>
+        <p class="version">version 0.2525.3.4</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8">
+        <h2>NicoCastとは</h2>
+        <p class="lead">
+          <a href="https://www.google.co.jp/chrome/devices/chromecast/" target="_blank">
+          ChromeCast</a>で
+          <a href="http://www.nicovideo.jp/video_top" target="_blank">
+          ニコニコ動画</a>を再生することができる
+          <a href="https://support.google.com/chrome/answer/154007" target="_blank">
+          Chrome拡張機能</a>です．
+        </p>
+        <p class="lead">
+          <a href="http://dic.nicovideo.jp/a/%E9%A3%9B%E8%A1%8C%E7%9F%B3" target="_blank">
+          非公式</a>ですので，niconicoに問い合わせないでくださいね．
+        </p>
+        <p class="lead">
+          <a href="https://chrome.google.com/webstore/detail/nicocast/eenipglaffhnoinogndbmbdkmdlcedal/support?hl=ja" target="_blank">
+          お問い合わせはこちらでお願いします．</a>
+        </p>
+        <p style="opacity: 0.2;">
+          <a href="http://bbs.nicovideo.jp/request/" target="_blank">
+            公式では登場しないのでしょうか....
+          </a>
+        </p>
+      </div>
+      <div class="col-xs-1 col-md-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8">
+        <h2>インストール</h2>
+        <p class="lead">
+          利用には
+          <a href="https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd?hl=ja" target="_blank">
+          Google Cast</a>が必要です．
+        </p>
+        <p class="lead castCheck">
+          このブラウザにはGoogle Castがインストールされていないようです．
+        </p>
+        <p class="lead">
+          <a href="https://chrome.google.com/webstore/detail/nicocast/eenipglaffhnoinogndbmbdkmdlcedal?hl=ja" target="_blank">
+          NicoCastはこちらからインストールできます．</a>
+        </p>
+      </div>
+      <div class="col-xs-1 col-md-2"></div>
+    </div>
+    
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8">
+        <h2>アップデート</h2>
+        <p class="lead">
+          アップデートは
+          <a href="https://support.google.com/chrome_webstore/answer/1054246?hl=ja" target="_blank">
+          自動で行われます．</a>
+        </p>
+        <p class="lead">
+          手動でアップデートする方法は，
+          <a href="http://www.lifehacker.jp/2011/06/110530chromeupdate.html" target="_blank">
+          こちら</a>を参照してください．
+        </p>
+      </div>
+      <div class="col-xs-1 col-md-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8">
+        <h2>使い方</h2>
+        <ol class="lead">
+          <li>
+            <a href="https://support.google.com/chrome/answer/187443?hl=ja" target="_blank">
+            NicoCastを有効にして，</a>
+            <a href="http://www.nicovideo.jp/watch/sm9" target="_blank">
+            ニコニコ動画の動画再生ページ</a>にいきます．
+          </li>
+          <li>
+            動画プレイヤーのボリュームボタン横にキャストボタンがあります．
+          </li>
+          <li>
+            クリックすると，右上にキャスト先選択画面が表示されます．
+          </li>
+          <li>
+            キャスト先を選択すると，再生が始まります．
+          </li>
+        </ol>
+        <p class="lead">
+          <span class="text-small">
+            注）画面が「読み込み中」になるまで，選択画面を閉じないでください．
+          </span>
+        </p>
+        <p class="lead">
+          <span class="text-small">
+            古い動画ですが，操作方法がわかるかと思います．
+          </span>
+        </p>
+        <div class="text-center">
+          <script src="http://ext.nicovideo.jp/thumb_watch/sm23696042?w=490&amp;h=307"></script>
+        </div>
+      </div>
+      <div class="col-xs-1 col-md-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8">
+        <h2>よくある質問</h2>
+        <p class="lead">
+          以下の項目で改善されない場合は，
+          <a href="https://chrome.google.com/webstore/detail/nicocast/eenipglaffhnoinogndbmbdkmdlcedal/support?hl=ja" target="_blank">
+          ご報告いただけれると助かります．</a>
+        </p>
+        <div class="qa">
+          <div class="question lead">Castボタンが表示されません．</div>
+          <div class="answer lead">
+            再読み込みしてみてください．
+          </div>
+        </div>
+        <div class="qa">
+          <div class="question lead">
+            Castボタンが薄い状態です．<br>
+            「GoogleCast拡張が見つかりません」と表示されます．
+          </div>
+          <div class="answer lead">
+            <a href="https://chrome.google.com/webstore/detail/google-cast/boadgeojelhgndaghljhdicfkmllpafd?hl=ja" target="_blank">
+            Google Cast</a>をインストールしてください．
+          </div>
+        </div>
+        <div class="qa">
+          <div class="question lead">
+            Castボタンにバツ印がついています．<br>
+            「この動画はCastに対応していません」と表示されます．
+          </div>
+          <div class="answer lead">
+            次の動画は再生できない場合があります．<br>
+            <ol class="text-small">
+              <li>
+                有料動画
+              </li>
+              <li>
+                <a href="http://dic.nicovideo.jp/a/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E3%83%A0%E3%83%BC%E3%83%93%E3%83%BC%E3%83%A1%E3%83%BC%E3%82%AB%E3%83%BC" target="_blank">
+                ニコニコムービーメーカー</a>で作られた動画
+              </li>
+              <li>
+                その他，
+                <a href="http://dic.nicovideo.jp/a/%E3%83%8B%E3%82%B3%E3%83%8B%E3%82%B3%E5%A4%96%E9%83%A8%E3%83%97%E3%83%AC%E3%83%BC%E3%83%A4%E3%83%BC" target="_blank">
+                ニコニコ外部プレイヤー</a>で再生できない動画
+              </li>
+            </ol>
+            上記の場合は
+            <a href="https://support.google.com/chromecast/answer/3228332?hl=ja&ref_topic=4602553" target="_blank">
+            通常のキャスト方法</a>をご利用ください．
+          </div>
+        </div>
+        <div class="qa">
+          <div class="question lead">
+            「Cast デバイスは見つかりませんでした」と表示されます．
+          </div>
+          <div class="answer lead">
+            <a href="https://support.google.com/chromecast/answer/3249268?hl=ja" target="_blank">
+            こちらをご確認ください．</a>
+          </div>
+        </div>
+        <div class="qa">
+          <div class="question lead">
+            プレミアム会員なのに画質が低い．
+          </div>
+          <div class="answer lead">
+            ニコニコ外部プレイヤーの仕組みを利用しています．<br>
+            混雑時の画質は，
+            <a href="http://dic.nicovideo.jp/a/%E4%BD%8E%E7%94%BB%E8%B3%AA%E3%83%A2%E3%83%BC%E3%83%89" target="_blank">
+            低画質モード</a>になります．
+          </div>
+        </div>
+        <div class="qa">
+          <div class="question lead">
+            動画がよく止まる．<br>
+            「混雑中」と表示される．
+          </div>
+          <div class="answer lead">
+            ニコニコ外部プレイヤーの仕組みを利用しています．<br>
+            特に深夜の混雑時は再生ができない場合があります．
+          </div>
+        </div>
+        <div class="qa">
+          <div class="question lead">
+            コメントがカクカクで遅い．<br>
+            コメントの表示がおかしい．
+          </div>
+          <div class="answer lead">
+            改善を試みていますが，現状ではこれが限界です．
+          </div>
+        </div>
+        <div class="qa">
+          <div class="question lead">
+            ニコニコ生放送は対応しませんか．
+          </div>
+          <div class="answer lead">
+            仕組み上かなり難しく，対応は考えていません．<br>
+            <a href="http://bbs.nicovideo.jp/request/" target="_blank">
+            公式にお願いしたら</a>，作ってくれるかも知れませんよ．
+          </div>
+        </div>
+      </div>
+      <div class="col-xs-1 col-md-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8">
+        <h2>更新予定</h2>
+        <p class="lead">
+          うまくいけば搭載しますが，あまり期待しないでください．
+        </p>
+        <div class="lead">
+          <ul class="text-small">
+            <li>
+              プレミアム会員画質での再生・有料動画の再生
+            </li>
+            <li>
+              コメント投稿機能
+            </li>
+            <li>
+              連続再生機能
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-xs-1 col-md-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-1 col-md-2"></div>
+      <div class="col-xs-10 col-md-8">
+        <h2>謝辞</h2>
+        <p class="lead">
+          NicoCast開発以来，
+          <a href="http://getgold.jp/p/30440" target="_blank">
+          各所</a>で取り上げていただけて嬉しい限りです．
+        </p>
+        <p class="lead">
+          その影響かユーザ数も7000人を超えているようです．ありがとうございます．
+        </p>
+        <p class="lead">
+          また，NicoCastを使ってくださっているみなさんにも感謝申し上げます．
+        </p>
+      </div>
+      <div class="col-xs-1 col-md-2"></div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <p>
+          Twitter:&nbsp;
+          <a href="https://twitter.com/3846masa" target="_blank">
+          @3846masa</a>
+        </p>
+        <p>
+          WebSite:&nbsp;
+          <a href="http://mikumiku.moe" target="_blank">
+          mikumiku.moe</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="./scripts/castCheck.js"></script>
+  <script>
+    $(function(){
+      $('link:not([rel])').attr('rel', 'stylesheet');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+@font-face { 
+  font-family: 'mplus-1p-regular';
+  src: url('../fonts_20150320/mplus-1p-regular-sub.eot');
+  src: url('../fonts_20150320/mplus-1p-regular-sub.eot?#iefix') format('embedded-opentype'),
+       url('../fonts_20150320/mplus-1p-regular-sub.woff') format('woff'),
+       url('../fonts_20150320/mplus-1p-regular-sub.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'mplus-1p-light';
+  src: url('../fonts_20150320/mplus-1p-light-sub.eot');
+  src: url('../fonts_20150320/mplus-1p-light-sub.eot?#iefix') format('embedded-opentype'),
+       url('../fonts_20150320/mplus-1p-light-sub.woff') format('woff'),
+       url('../fonts_20150320/mplus-1p-light-sub.ttf') format('truetype');
+}
