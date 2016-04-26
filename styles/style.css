@@ -52,3 +52,27 @@ p.lead, li {
 .text-small {
   font-size: 80%;
 }
+/*
+ http://qiita.com/ryounagaoka/items/a98f59347ed758743b8d
+ */
+.video-wrapper-inner {
+  position: relative;
+  display: inline-block;
+  max-height: 315px;
+  max-width: 560px;
+  width: 100%;
+}
+.video-wrapper-inner:before {
+  content: '\20';
+  display: block;
+  padding-top: 56.25%;
+}
+.video-wrapper-inner > iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 560px;
+  max-height: 315px;
+  width: 100%;
+  height: 100%;
+}
