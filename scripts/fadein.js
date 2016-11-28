@@ -10,8 +10,8 @@ $(function(){
   bodyWebFont.setAttribute('selector', 'body');
 
   var headerWebFont = document.createElement('japont-config');
-  headerWebFont.setAttribute('src', 'mplus/mplus-1p-light.woff');
-  headerWebFont.setAttribute('selector', 'body');
+  headerWebFont.setAttribute('src', 'mplus/mplus-1p-regular.woff');
+  headerWebFont.setAttribute('selector', 'h1,h2,h3');
 
   var cnt = 0;
   bodyWebFont.onload = headerWebFont.onload = function () {
