@@ -18,7 +18,11 @@
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
 
   <link href="./styles/style.css?_=20150320" rel="stylesheet"/>
-  <link href="./styles/fonts.css?_=20150320"/>
+
+  <!-- https://github.com/WebComponents/webcomponentsjs/# -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.7.22/CustomElements.min.js"></script>
+  <script src="//japont.mikumiku.moe/japont.min.js" async></script>
+
   <script src="./scripts/fadein.js"></script>
 </head>
 <body>
@@ -71,7 +75,9 @@
           Google Cast</a>が必要です．
         </p>
         <p class="lead castCheck">
-          このブラウザにはGoogle Castがインストールされていないようです．
+          Google Cast拡張機能をチェックしています．．．
+          <span class="hidden">このブラウザにはGoogle Castがインストールされていないようです．</span>
+          <span class="hidden">このブラウザにはGoogle Castがインストールされているので大丈夫です．</span>
         </p>
         <p class="lead">
           <a href="https://chrome.google.com/webstore/detail/nicocast/eenipglaffhnoinogndbmbdkmdlcedal?hl=ja" target="_blank">

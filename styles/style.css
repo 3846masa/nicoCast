@@ -1,11 +1,12 @@
 body {
   background-color: #FDFDFD;
   color: #212121;
-  font-family: 'mplus-1p-light', sans-serif;
   margin-bottom: 10px;
 }
+.container {
+  opacity: 0;
+}
 h2 {
-  font-family: 'mplus-1p-regular', sans-serif;
   border-left: #757575 5px solid;
   color: #101010;
   padding-left: 10px;
@@ -23,7 +24,7 @@ p.lead, li {
   margin-bottom: 0.5em;
 }
 .logo {
-  opacity: 0;
+  opacity: 0.8;
   max-height: 150px;
 }
 .qa {
